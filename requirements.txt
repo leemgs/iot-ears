@@ -1,0 +1,9 @@
+# Pinned to match the attached technical document
+numpy
+tqdm
+matplotlib
+scikit-learn
+h5py==2.10.0
+tensorflow==1.14.0
+Keras==2.2.4
+librosa==0.9.2

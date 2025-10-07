@@ -1,0 +1,48 @@
+{
+  "audio": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_sec": 30
+  },
+  "framing": {
+    "frame_length": 16896,
+    "hop_length": 512
+  },
+  "features": {
+    "type": "logmel",
+    "n_mels": 30,
+    "n_fft": 1024,
+    "hop_length": 512,
+    "center": false
+  },
+  "training": {
+    "epochs": 30,
+    "batch_size": 500,
+    "optimizer": "sgd",
+    "lr": 0.01,
+    "momentum": 0.9,
+    "nesterov": true
+  },
+  "labels": {
+    "map": {
+      "indoor": [
+        "cafeRestaurant",
+        "home",
+        "office",
+        "shoppingCenter"
+      ],
+      "outdoor": [
+        "cityCenter",
+        "park",
+        "residentialArea"
+      ],
+      "vehicle": [
+        "bus",
+        "car",
+        "subway",
+        "train",
+        "tramway"
+      ]
+    }
+  }
+}

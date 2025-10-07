@@ -1,0 +1,4 @@
+# Example (replace with your own paths/labels)
+home.wav home
+park.wav park
+bus.wav bus
